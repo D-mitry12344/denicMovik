@@ -1,0 +1,17 @@
+@font-face{
+	font-family: 'Gilroy-bold';
+	src: url("../fonts/gilroy-bold.ttf");
+}
+
+@font-face{
+	font-family: 'Gilroy-medium';
+	src: url("../fonts/gilroy-medium.ttf");
+}
+
+body{
+	font-family: "Gilroy-medium";
+	text-align: center;
+	width: 1360px;
+	/*margin-right: auto;
+	margin-left: auto;*/
+}
