@@ -20,7 +20,16 @@ header{
 	margin-right: auto;
 }
 
+.menuHead{
+	display: none;
+}
+
+.menuClose{
+	display: none;
+}
+
 .listHead{
+	display: block;
 	font-family: 'Gilroy-Bold';
 	font-size: 18px;
 	line-height: 22px;
@@ -28,7 +37,7 @@ header{
 	margin-right: auto;
 	width: 940px;
 	display: flex;
-	list-style: none;;
+	list-style: none;
 	padding: 12px 1px 36px 1px;
 	border-bottom: 2px solid #828282;
 }
@@ -119,14 +128,19 @@ main{
 .aboutMe p{
 	font-size: 18px;
 	line-height: 22px;
-	text-align: center;
+
 	margin-left: auto;
 	margin-right: auto;
-	width: 485px;
+	width: 476px;
 	padding:0 1px 24px 0px;
 }
 
+.aboutMe p:nth-child(2){
+	width: 485px;
+}
+
 .aboutMe p:nth-child(4){
+	width: 350px;
 	padding:2px 0px 26px 2px;
 }
 
@@ -325,4 +339,6 @@ footer a{
 
 footer a:hover{
 	color: black;
+}
+
 }

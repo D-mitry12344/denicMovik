@@ -7,45 +7,85 @@ body{
 }
 
 header{
-	display: none;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.listHead{
-	font-family: 'Gilroy-Bold';
-	font-size: 18px;
-	line-height: 22px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 940px;
+.menuHead{
 	display: flex;
-	list-style: none;;
-	padding: 12px 1px 36px 1px;
-	border-bottom: 2px solid #828282;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 65px;
+	margin-left: 312px;
+	width: 30px;
+	z-index: 2;
+}
+
+.menuClose{
+	display: none;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 65px;
+	margin-left: 320px;
+	width: 30px;
+	z-index: 2;
+	transition-duration: 0.3;
+}
+
+.menuClose img:nth-child(2){
+	transform: rotate(90deg);
+	margin-top: -25px;
+}
+
+.menuHead img{
+	padding: 1.5px 0;
+}
+
+.listHead{
+	position: absolute;
+	display: none;
+	background: white;
+	font-family: 'Gilroy-Bold';
+	font-size: 34px;
+	line-height: 42px;
+	flex-wrap: wrap;
+	width: 375px;
+	height: 760px;
+	top: 0;
+	list-style: none;
+	border: none;
 }
 
 .listHead li{
 	display: flex;
-	padding: 0 105px 0 0;
+	width: 200px;
+	padding: 14px 0px 0 25px;
 }
 
 .listHead li:nth-child(2){
-	padding: 0 137px 0 0;
+	margin-top: -93px;
+	padding: 0px 0px 0 25px;
 }
 
 .listHead li:nth-child(3){
-	padding-right: 98px;
+	margin-top: -143px;
+	padding: 0px 0px 0 25px;
 }
 
 .listHead li:nth-child(4){
-	padding-right: 128px;
+	margin-top: -192px;
+	padding: 0px 0px 0 25px;
+}
+
+.listHead li:nth-child(5){
+	margin-top: -233px;
+	padding: 0px 0px 0 25px;
 }
 
 .listHead li a{
 	text-decoration: none;
 	color: #828282;
-	width: 100px;
+	width: 200px;
 	transition-duration: 0.3s;
 }
 
@@ -109,21 +149,32 @@ main{
 	font-family: 'Gilroy-Bold';
 	font-size: 34px;
 	line-height: 42px;
+	padding-left: 33px;
 	text-align: center;
 }
 
 .aboutMe p{
 	font-size: 18px;
 	line-height: 22px;
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	width: 320px;
-	padding:0 1px 24px 0px;
+	width: 300px;
+	padding:10px 35px 20px 70px;
 }
 
+.aboutMe p:nth-child(2){
+	width: 340px;
+}
+
+.aboutMe p:nth-child(3){
+	width: 270px;
+	padding:5px 20px 20px 50px;
+}
+
+
 .aboutMe p:nth-child(4){
-	padding:2px 0px 26px 2px;
+	width: 270px;
+	padding:5px 35px 26px 70px;
 }
 
 .skillBlock{
