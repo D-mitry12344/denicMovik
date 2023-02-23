@@ -128,20 +128,31 @@ main{
 .aboutMe p{
 	font-size: 18px;
 	line-height: 22px;
-
 	margin-left: auto;
 	margin-right: auto;
-	width: 476px;
-	padding:0 1px 24px 0px;
+	padding:0 1px 22px 0px;
 }
 
-.aboutMe p:nth-child(2){
+.textMobile{
+	display: none;
+}
+
+.textPc{
+	display: block;
+}
+
+.textPc p:nth-child(1){
 	width: 485px;
 }
 
-.aboutMe p:nth-child(4){
-	width: 350px;
-	padding:2px 0px 26px 2px;
+.textPc p:nth-child(2){
+	width: 400px;
+	padding:2px 0px 26px 0px;
+}
+
+.textPc p:nth-child(3){
+	width: 320px;
+	padding:0px 0px 26px 2px;
 }
 
 .skillBlock{
@@ -330,6 +341,9 @@ footer button:hover{
 }
 
 footer a{
+	display: block;
+	padding-left: 5px;
+	padding-top: 9px;
 	color: #828282;
 	font-size: 14px;
 	line-height: 17px;
